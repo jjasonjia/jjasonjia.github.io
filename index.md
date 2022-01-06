@@ -4,15 +4,15 @@ title: Jianqing Jia
 ---
 <h2> Jianqing Jia </h2> 
 <br>  
-[School of Mathematical Sciences](http://www.math.pku.edu.cn)   
-[Syracuse University](https://pku.edu.cn)  
-**Office**: Science Building No.1, 1279E  
-**Email**: chengzhang@math.pku.edu.cn  
-**Github**: [@zcrabbit](https://github.com/zcrabbit)  
+[Department of Mathematics](https://thecollege.syr.edu/mathematics/)   
+[Syracuse University](https://www.syracuse.edu/  
+**Office**: Carnegie Library 400E 
+**Email**: jjia10@syr.edu  
+**Github**: [@jjasonjia](https://github.com/jjasonjia)  
 
 ### About me
 
-I am a tenure-track Assistant Professor in the School of Mathematical Sciences at Peking University. Previously, I was a Postdoctoral research fellow in [Matsen Group](https://matsen.fhcrc.org) at Fred Hutchinson cancer research center. I finished my PhD in 2016 in the [Mathematics Department](https://www.math.uci.edu) at [University of California, Irvine](https://uci.edu), working with [Prof. Hongkai Zhao](https://www.math.uci.edu/~zhao/homepage/home/home.html) and [Prof. Babak Shahbaba](https://www.ics.uci.edu/~babaks/) on scalable Bayesian inference methods. 
+I am a PhD candidate in the Department of Mathematics at Syracuse University. Previously, I was a Postdoctoral research fellow in [Matsen Group](https://matsen.fhcrc.org) at Fred Hutchinson cancer research center. I finished my PhD in 2016 in the [Mathematics Department](https://www.math.uci.edu) at [University of California, Irvine](https://uci.edu), working with [Prof. Hongkai Zhao](https://www.math.uci.edu/~zhao/homepage/home/home.html) and [Prof. Babak Shahbaba](https://www.ics.uci.edu/~babaks/) on scalable Bayesian inference methods. 
 I received my Bachelor degree (2008) in applied mathematics and Master degree (2011) in computational mathematics from Peking University.
 
 <!-- For me, the painful aspects of making a website are
@@ -23,10 +23,11 @@ I received my Bachelor degree (2008) in applied mathematics and Master degree (2
 
 ### Research interest
 
-My Research area is Bayesian statistics and machine learning, with interests including graphical models, efficient Markov chain Monte Carlo methods and variational inference methods for Bayesian models, deep Bayesian learning/Bayesian deep learning, and various applications using probabilistic modeling. 
-
+My research interest focus on optimization, augmented reality and machine learning.
+<!-- , with interests including graphical models, efficient Markov chain Monte Carlo methods and variational inference methods for Bayesian models, deep Bayesian learning/Bayesian deep learning, and various applications using probabilistic modeling. 
+ -->
 Examples of subjects of interest including:
 
-- Scalable MCMC and variational approaches for large-scale Bayesian inference. 
-- Graphical modeling of discrete and structured objects.
-- Efficient Bayesian phylogenetic inference algorithms, including both variational and Monte Carlo methods.
+- Nonconvex optimization. 
+- Label placement in augmented reality.
+- Wavelet neural networks.
