@@ -1,0 +1,311 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bayesian Theory and Computation, Spring 2021</title>
+    
+    <meta name="author" content="Cheng Zhang">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+	<!-- <link href="/assets/themes/twitter/css/1.4.0/bootstrap.css" rel="stylesheet"> -->
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <!-- <link href="/assets/themes/twitter/css/kbroman.css" rel="stylesheet" type="text/css" media="all"> -->
+
+    <!-- Le fav and touch icons -->
+
+    <!-- atom & rss feed -->
+    <link href="nil" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="nil" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	    <div class="navbar">
+	      <div class="navbar-inner">
+	        <div class="container-narrow">
+	          <a class="brand" href="/">Cheng Zhang</a>
+			  <ul class="nav">
+				  <li><a href="/pages/publications.html">Publications</a></li>
+				  <li><a href="/pages/courses.html">Teaching</a></li>
+				  <li><a href="/pages/talks.html">Talks</a></li>
+				  <li><a href="/pages/404.html">Blog</a></li>
+				  <!-- <li><a href="/blog">Blog</a></li> -->
+				  <li><a href="/static/CV_Cheng_Zhang.pdf">CV</a></li>
+			  </ul>
+	        </div>
+	      </div>
+	    </div>
+	</nav>
+
+    <div class="container-narrow">
+
+      <div class="content">
+        
+
+<div class="page-header">
+  <h2>Bayesian Theory and Computation, Spring 2021 </h2>
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+    <h3 id="basic-info">Basic Info</h3>
+<ul>
+  <li>Instructor: Cheng Zhang (<a href="mailto:chengzhang@math.pku.edu.cn">chengzhang@math.pku.edu.cn</a>)</li>
+  <li>Class times and location: odd Tuesday 1:00-2:50pm, Friday 3:10-5:00pm, Science Classroom Building, Room 407</li>
+  <li>Office hours: Thursday 3:00-5:00pm or by appointment, 1279 Science Building No.1</li>
+  <li><a href="/courses/Syllabus-btc-s21.pdf">Syllabus</a></li>
+</ul>
+
+<h3 id="description-and-objectives">Description and Objectives</h3>
+<p>The objective of this course is to explore Bayesian statistical theories and methods, and discuss their application in real life problems. Students would learn how to formulate a scientific question by constructing a Bayesian model, and perform Bayesian statistical inference to answer that question. Throughout this course, students would be exposed to the theory of Bayesian inference. They would also learn several computational techniques, such as importance sampling, sequential Monte Carlo, Markov Chain Mote Carlo (MCMC) algorithms, variational inference (VI), and use these techniques for Bayesian analysis of real data. Additional topics may vary. Coursework will include computer assignments.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+<p>Multivariate calculus, linear algebra, graduate level courses in probability and statistics, applied stochastic processes</p>
+
+<h3 id="recommended-textbooks">Recommended Textbooks</h3>
+<p><strong>Main textbook</strong></p>
+
+<ul>
+  <li>Gelman, A., Carlin, J., Stern, H., and Rubin, D. (2003). Bayesian Data Analysis, 2nd Edition, Chapman &amp; Hall.</li>
+</ul>
+
+<p>Other interesting references</p>
+
+<ul>
+  <li>Liu, J. (2001). Monte Carlo Strategies in Scientific Computing, Springer-Verlag.</li>
+  <li>Lange, K. (2002). Numerical Analysis for Statisticians, Springer-Verlag, 2nd Edition.</li>
+  <li>Keener, R. W. (2010). Theoretical Statistics: Topics for a Core Course, Springer.</li>
+  <li>Christian, P. R. (2004). The Bayesian Choice, Springer.</li>
+</ul>
+
+<h3 id="grading">Grading</h3>
+<ul>
+  <li>4 problem sets (15% each), 60%</li>
+  <li>final project (40%): midterm proposal (5%) + oral presentation (10%) + final write-up (25%)</li>
+</ul>
+
+<p>There will be <code class="language-plaintext highlighter-rouge">7</code> free late days in total, use them in your own ways. Afterwards, late homework will be discounted by 25% for each additional day. Not acceptable after <code class="language-plaintext highlighter-rouge">3</code> late days per problem set (PS). Late policy <code class="language-plaintext highlighter-rouge">does not apply</code> to the final project, please submit it on time. Discussing assignments verbally with your classmates is allowed and encouraged. However, you should finish your work independently. Identified cheating incidents will be reported and will result in zero grades.</p>
+
+<h3 id="computer-and-technical-requirements">Computer and Technical Requirements</h3>
+
+<p>We will use python during the course. A good Python tutorial is available at <a href="http://www.scipy-lectures.org/">http://www.scipy-lectures.org/</a>. You may also find another shorter tutorial useful at <a href="http://cs231n.github.io/python-numpy-tutorial/">http://cs231n.github.io/python-numpy-tutorial/</a>. If you have never used Python before, I recommend using Anaconda Python 3.7 <a href="https://www.continuum.io/">https://www.continuum.io/</a>.</p>
+
+<h3 id="lectures">Lectures</h3>
+<ul>
+  <li>03/09/2021: <a href="/static/slides/btc_spring21/lec01.pdf">Lecture 1 - Introduction</a></li>
+  <li>03/12/2021: <a href="/static/slides/btc_spring21/lec02.pdf">Lecture 2 - Single and Multiple Parameter Models</a></li>
+  <li>03/19/2021: <a href="/static/slides/btc_spring21/lec03.pdf">Lecture 3 - Monte Carlo Methods</a></li>
+  <li>03/23/2021: <a href="/static/slides/btc_spring21/lec04.pdf">Lecture 4 - Markov Chain Monte Carlo I</a></li>
+  <li>03/26/2021: <a href="/static/slides/btc_spring21/lec05.pdf">Lecture 5 - Markov Chain Monte Carlo II</a></li>
+  <li>04/02/2021: <a href="/static/slides/btc_spring21/lec06.pdf">Lecture 6 - Linear and Generalized Linear Models</a></li>
+  <li>04/06/2021: <a href="/static/slides/btc_spring21/lec07.pdf">Lecture 7 - Decision Theory and Model Selection</a></li>
+  <li>04/09/2021: <a href="/static/slides/btc_spring21/lec08.pdf">Lecture 8 - Importance Sampling</a></li>
+  <li>04/16/2021: <a href="/static/slides/btc_spring21/lec09.pdf">Lecture 9 - Sequential Monte Carlo</a></li>
+  <li>04/20/2021: <a href="/static/slides/btc_spring21/lec10.pdf">Lecture 10 - Advanced MCMC</a></li>
+  <li>04/23/2021: <a href="/static/slides/btc_spring21/lec11.pdf">Lecture 11 - Scalable MCMC</a></li>
+  <li>05/04/2021: <a href="/static/slides/btc_spring21/lec12.pdf">Lecture 12 - Expectation Maximization</a></li>
+  <li>05/07/2021: <a href="/static/slides/btc_spring21/lec13.pdf">Lecture 13 - Variational EM</a></li>
+  <li>05/14/2021: <a href="/static/slides/btc_spring21/lec14.pdf">Lecture 14 - Variational Inference</a></li>
+  <li>05/18/2021: <a href="/static/slides/btc_spring21/lec15.pdf">Lecture 15 - Stochastic Variational Inference</a></li>
+  <li>05/21/2021: <a href="/static/slides/btc_spring21/lec16.pdf">Lecture 16 - Advanced VI</a></li>
+  <li>05/28/2021: <a href="/static/slides/btc_spring21/lec17.pdf">Lecture 17 - Gaussian Processes</a></li>
+  <li>06/01/2021: <a href="/static/slides/btc_spring21/lec18.pdf">Lecture 18 - Dirichlet Processes</a></li>
+</ul>
+
+<h3 id="assignments">Assignments</h3>
+<ul>
+  <li>03/26/2021: <a href="/static/slides/btc_spring21/hw01.pdf">Homework 1</a>, <strong>Due</strong> <code class="language-plaintext highlighter-rouge">04/09/2021</code></li>
+  <li>04/20/2021: <a href="/static/slides/btc_spring21/hw02.pdf">Homework 2</a>, <strong>Due</strong> <code class="language-plaintext highlighter-rouge">05/04/2021</code></li>
+  <li>05/14/2021: <a href="/static/slides/btc_spring21/hw03.pdf">Homework 3</a>, <strong>Due</strong> <code class="language-plaintext highlighter-rouge">05/28/2021</code></li>
+  <li>06/04/2021: <a href="/static/slides/btc_spring21/hw04.pdf">Homework 4</a>, <strong>Due</strong> <code class="language-plaintext highlighter-rouge">06/18/2021</code>   Data: <a href="/static/datasets/btc_hw4_lda_data.p">p1</a>, <a href="/static/datasets/btc_hw4_dp_data.npy">p4</a></li>
+</ul>
+
+<h3 id="final-project">Final Project</h3>
+<p>You may structure your project exploration around a general problem type, algorithm, or data set, but should explore around your problem, testing thoroughly or comparing to alternatives. You may work on the project as teams. Each team may have up to <code class="language-plaintext highlighter-rouge">4</code> people. Please form your team by the end the <code class="language-plaintext highlighter-rouge">4th</code> week. You should present a project proposal that briefly describe your project concept and goals in one slide at midterm. You should turn in a write-up (&lt; 10 pages) describing your project and its outcomes, similar to a research-level publication. I suggest the latex styles for <a href="https://nips.cc/Conferences/2019/PaperInformation/StyleFiles">NeurIPS</a> or <a href="https://iclr.cc/Conferences/2019/CallForPapers">ICLR</a>. There will be in class project presentation at the end of the term. Not presenting your projects will be taken as voluntarily <code class="language-plaintext highlighter-rouge">giving up</code> the opportunity for the final write-ups.</p>
+
+<h3 id="tentative-schedule">Tentative Schedule</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Date</th>
+      <th>Topics</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>03/09</td>
+      <td>Introduction</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>03/12</td>
+      <td>Single- and Multi- Parameter Models</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>03/19</td>
+      <td>Monte Carlo Methods, Markov Processes</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>03/23</td>
+      <td>Metropolis Hastings, Gibbs Sampling</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>03/26</td>
+      <td>Parallel Tempering, Slice Sampling, Hierarchical Models</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>04/02</td>
+      <td>Linear Models, Generalized Linear Models</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>04/06</td>
+      <td>Bayesian Decision Theory, Bayesian Model Selection</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>04/09</td>
+      <td>Importance Sampling, Variance Reduction Techniques</td>
+      <td><!--PS2 out, due 10/23--></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>04/16</td>
+      <td>Sequential Monte Carlo</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>04/20</td>
+      <td>Hamiltonian Monte Carlo, Adaptive MCMC</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>04/23</td>
+      <td>Scalable MCMC Methods</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>04/30</td>
+      <td>–</td>
+      <td>International Workers’ Day</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>05/04</td>
+      <td>Expectation Maximization</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>05/07</td>
+      <td>Variational Bayesian EM</td>
+      <td><code class="language-plaintext highlighter-rouge">proposal presentation</code></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>05/14</td>
+      <td>Variational Inference, Mean Field VI</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>05/18</td>
+      <td>Stochastic Variational Inference</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>05/21</td>
+      <td>Normalizing Flow, Combining VI and MCMC</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>05/28</td>
+      <td>Gaussian Processes, Sparse Gaussian Processes</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>06/01</td>
+      <td>Dirichlet Processes, DP Mixture Models</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>06/04</td>
+      <td>Project Presentation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>06/11</td>
+      <td>Project Presentation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>06/15</td>
+      <td>Project Presentation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>06/18</td>
+      <td>Project Presentation</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+</div>
+
+
+      </div>
+      <hr>
+      <footer>
+        <p><small>
+  <!-- start of Karl's footer; modify this part -->
+          <!-- <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0"/></a> &nbsp;
+          <a href="https://kbroman.org">Karl Broman</a> -->
+  <!-- end of Karl's footer; modify this part -->
+        </small></p>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+
