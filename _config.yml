@@ -8,26 +8,26 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Cheng Zhang
+title : Jianqing Jia
 author :
-  name : Cheng Zhang
-  email : zc.rabbit@gmail.com
-  github : zcrabbit
+  name : Jianqing Jia
+  email : jjia10@syr.edu
+  github : jjasonjia
   twitter : nil
   feedburner : nil
 
 # NOTE: Replacing this next line with your own URL
 # production_url : https://zcrabbit.github.io/czhang.me
-production_url : https://zcrabbit.github.io
+production_url : https://jjasonjia.github.io
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: kramdown
 
 disqus: 
-   shortname: zcrabbit-github-io-1
+   shortname: jjasonjia-github-io-1
  
-url: http://zcrabbit.github.io
+url: http://jjasonjia.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -59,7 +59,7 @@ JB :
   #
   # NOTE: Replace this next line with your own URL, likely with username.github.io
   # BASE_PATH : https://zcrabbit.github.io/czhang.me
-  BASE_PATH : https://zcrabbit.github.io
+  BASE_PATH : https://jjasonjia.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
