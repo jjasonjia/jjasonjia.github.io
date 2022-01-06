@@ -27,7 +27,7 @@ markdown: kramdown
 disqus: 
    shortname: jjasonjia-github-io-1
  
-url: http://jjasonjia.github.io
+url: http://jjasonjia.github.io/_site/index.html
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -59,7 +59,7 @@ JB :
   #
   # NOTE: Replace this next line with your own URL, likely with username.github.io
   # BASE_PATH : https://zcrabbit.github.io/czhang.me
-  BASE_PATH : https://jjasonjia.github.io
+  BASE_PATH : https://jjasonjia.github.io/_site/index.html
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
