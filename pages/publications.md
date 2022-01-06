@@ -4,21 +4,19 @@ title: Publications
 ---
 
 
-- [Non-bifurcating Phylogenetic Tree Inference via The Adaptive LASSO](https://arxiv.org/abs/1805.11073)  
-Cheng Zhang\*, Vu Dinh\*, Frederick A. Matsen IV  
-_Journal of the American Statistical Association, 116(534), 2021, pp. 858-873_
+- [Semantic-aware label placement for augmented reality in street view](https://link.springer.com/article/10.1007/s00371-020-01939-w)  
+Jianqing Jia, Semir Elezovikj, Heng Fan, Shuojin Yang, Jing Liu, Wei Guo, Chiu C Tan, Haibin Ling   
+_The Visual Computer, 37(7), pp. 1805-1819. Springer Berlin Heidelberg, 2021_
 
-- [Improved Variational Bayesian Phylogenetic Inference with Normalizing Flows](https://papers.nips.cc/paper/2020/file/d96409bf894217686ba124d7356686c9-Paper.pdf)  
-Cheng Zhang  
-_In Proceedings of the 34th Neural Information Processing Systems (NeurIPS 2020, oral presentation)_  
-[[code]](https://github.com/zcrabbit/vbpi-nf) [[poster]]({{site.baseurl}}/static/posters/vbpi-nf-poster.pdf)
+- [Multi-component fusion network for small object detection in remote sensing images](https://ieeexplore.ieee.org/abstract/document/8823855)  
+Jing Liu, Shuojin Yang, Liang Tian, Wei Guo, Bingyin Zhou, Jianqing Jia, Haibin Ling   
+_IEEE Access, 7, pp.128339-128352. IEEE, 2019_  
 
-- [Variational Bayesian Phylogenetic Inference](https://openreview.net/pdf?id=SJVmjjR9FX)  
-Cheng Zhang, Frederick A. Matsen IV.  
-_In Proceedings of the 7th International Conference on Learning Representations (ICLR 2019)_  
-[[poster]]({{site.baseurl}}/static/posters/vbpi_iclr_poster.pdf)
+- [Image-based label placement for augmented reality browsers](https://ieeexplore.ieee.org/abstract/document/8780965)  
+Jianqing Jia, Yu Zhang, Xiaoce Wu, Wei Guo   
+_2018 IEEE 4th International Conference on Computer and Communications (ICCC), pp. 1654-1659. IEEE, 2018 _  
 
-- [Generalizing Tree Probability Estimation via Bayesian Networks](https://arxiv.org/abs/1805.07834)  
+<!-- - [Generalizing Tree Probability Estimation via Bayesian Networks](https://arxiv.org/abs/1805.07834)  
 Cheng Zhang, Frederick A. Matsen IV  
 _In Proceedings of the 32th Neural Information Processing Systems (NeurIPS 2018, spotlight presentation)_    
 [[code]](https://github.com/zcrabbit/sbn) [[poster]]({{site.baseurl}}/static/posters/sbn_nips_poster.pdf)
@@ -40,3 +38,4 @@ _Computational Statistics, 32(1), 2017, pp. 253-279_
 Vu Dinh\*, Arman Bilge\*, Cheng Zhang\*, Frederick A. Matsen IV  
 _In Proceedings of the 34th International Conference on Machine Learning (ICML 2017)_  
 [[code]](https://github.com/zcrabbit/PhyloInfer) [[poster]]({{site.baseurl}}/static/posters/pphmc.pdf)
+ -->
