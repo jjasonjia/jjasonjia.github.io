@@ -18,7 +18,7 @@ author :
 
 # NOTE: Replacing this next line with your own URL
 # production_url : https://zcrabbit.github.io/czhang.me
-production_url : https://jjasonjia.github.io/_site/index.html
+production_url : https://jjasonjia.github.io
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
@@ -27,7 +27,7 @@ markdown: kramdown
 disqus: 
    shortname: jjasonjia-github-io-1
  
-url: http://jjasonjia.github.io/_site/index.html
+url: https://jjasonjia.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -59,7 +59,7 @@ JB :
   #
   # NOTE: Replace this next line with your own URL, likely with username.github.io
   # BASE_PATH : https://zcrabbit.github.io/czhang.me
-  BASE_PATH : https://jjasonjia.github.io/_site/index.html
+  BASE_PATH : https://jjasonjia.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
