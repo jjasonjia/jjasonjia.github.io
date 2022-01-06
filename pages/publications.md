@@ -14,7 +14,7 @@ _IEEE Access, 7, pp.128339-128352. IEEE, 2019_
 
 - [Image-based label placement for augmented reality browsers](https://ieeexplore.ieee.org/abstract/document/8780965)  
 Jianqing Jia, Yu Zhang, Xiaoce Wu, Wei Guo   
-_2018 IEEE 4th International Conference on Computer and Communications (ICCC), pp. 1654-1659. IEEE, 2018 _  
+_2018 IEEE 4th International Conference on Computer and Communications (ICCC), pp. 1654-1659. IEEE, 2018_  
 
 <!-- - [Generalizing Tree Probability Estimation via Bayesian Networks](https://arxiv.org/abs/1805.07834)  
 Cheng Zhang, Frederick A. Matsen IV  
