@@ -1,12 +1,11 @@
 ---
 layout: index
-title: Cheng Zhang
+title: Jianqing Jia
 ---
-<h2> Cheng Zhang </h2> 
-<br>
-**Assistant Professor**  
+<h2> Jianqing Jia </h2> 
+<br>  
 [School of Mathematical Sciences](http://www.math.pku.edu.cn)   
-[Peking University](https://pku.edu.cn)  
+[Syracuse University](https://pku.edu.cn)  
 **Office**: Science Building No.1, 1279E  
 **Email**: chengzhang@math.pku.edu.cn  
 **Github**: [@zcrabbit](https://github.com/zcrabbit)  
