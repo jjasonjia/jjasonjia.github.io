@@ -17,7 +17,6 @@ author :
   feedburner : nil
 
 # NOTE: Replacing this next line with your own URL
-# production_url : https://zcrabbit.github.io/czhang.me
 production_url : https://jjasonjia.github.io
 
 # Tell Github to use the kramdown markdown interpreter
