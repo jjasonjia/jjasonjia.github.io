@@ -5,7 +5,7 @@ title: Jianqing Jia
 <h2> Jianqing Jia </h2> 
 <br>  
 [Department of Mathematics](https://thecollege.syr.edu/mathematics/)   
-[Syracuse University](https://www.syracuse.edu/  
+[Syracuse University](https://www.syracuse.edu/)  
 **Office**: Carnegie Library 400E   
 **Email**: jjia10@syr.edu   
 **Personal Site**: https://jjia10.expressions.syr.edu/
